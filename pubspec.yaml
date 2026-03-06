@@ -1,0 +1,12 @@
+name: appbookinglapangan
+description: A new Flutter project
+
+environment:
+  sdk: '^3.11.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
