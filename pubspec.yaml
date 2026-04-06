@@ -2,11 +2,21 @@ name: appbookinglapangan
 description: A new Flutter project
 
 environment:
-  sdk: '^3.11.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  crypto: ^3.0.3
+  google_fonts: ^8.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/
